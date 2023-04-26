@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background: black ;
-    color: white;
+    background: white ;
+    color: black;
 }
 #header{
     width: 100%;
@@ -56,6 +56,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    color: white;
     
 }
 .header-text img{
@@ -74,7 +75,7 @@ nav ul li a:hover::after{
 /*about*/
 #about{
     padding: 8px 0;
-    color: #ababab;
+    color: black;
 }
 .row{
     display: flex;
@@ -94,7 +95,7 @@ about-col-1 img{
 .subtitle{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: black;
 }
 .tab-titles{
     display: flex;
@@ -176,7 +177,7 @@ about-col-1 img{
 }
 /*Portfolio*/
 #portfolio{
-    padding: 50px 0;
+    padding: 5px 0;
 }
 .work-list{
     display: grid;
