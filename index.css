@@ -75,7 +75,8 @@ nav ul li a:hover::after{
 /*about*/
 #about{
     padding: 8px 0;
-    color: black;
+    color: white;
+    background-color: black;
 }
 .row{
     display: flex;
@@ -87,7 +88,7 @@ nav ul li a:hover::after{
 }
 about-col-1 img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 55px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -95,7 +96,7 @@ about-col-1 img{
 .subtitle{
     font-size: 60px;
     font-weight: 600;
-    color: black;
+    color: white;
 }
 .tab-titles{
     display: flex;
@@ -127,8 +128,8 @@ about-col-1 img{
     margin:10px 0 ;
 }
 .tab-contents ul li span{
-    color: #fff400;
-    font-size: 25px;
+    color: gold;
+    font-size: 20px;
 }
 .tab-contents {
     display: none;
